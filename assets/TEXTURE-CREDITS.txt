@@ -1,0 +1,7 @@
+Planetary surface textures and Saturn ring:
+Solar System Scope (https://www.solarsystemscope.com/textures/)
+CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
+Downloaded from the credited public mirror:
+https://github.com/Shrey1803/Solar-system/tree/main/textures
+Images preserved unchanged. Ring file extension corrected from .jpg to .png to match its PNG content.
+Maps are artist-processed NASA-derived data, including gap reconstruction and enhanced saturation. Venus uses the surface map, not the cloud layer.

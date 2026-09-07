@@ -1,0 +1,34 @@
+Exoplanet coordinates and distances: NASA Exoplanet Archive pscomppars TAP query, 2026-09-06. Nebula directions are representative centers, not boundaries.
+https://exoplanetarchive.ipac.caltech.edu/
+
+プロキシマ・ケンタウリb
+ESO/M. Kornmesser
+https://www.nasa.gov/image-article/artists-view-of-planet-where-liquid-water-might-exist/
+
+TRAPPIST-1e
+NASA, ESA, CSA, STScI, Joseph Olmsted (STScI)
+https://science.nasa.gov/asset/webb/trappist-1-e-artists-concept/
+
+ペガスス座51番星b
+
+https://science.nasa.gov/exoplanet-catalog/51-pegasi-b/
+
+ケプラー186f
+NASA/Ames/SETI Institute/JPL-Caltech
+https://science.nasa.gov/exoplanet-catalog/kepler-186-f/
+
+オリオン大星雲
+NASA, ESA, M. Robberto (STScI/ESA) and the Hubble Space Telescope Orion Treasury Project Team
+https://esahubble.org/images/heic0601a/
+
+かに星雲
+NASA, ESA and Allison Loll/Jeff Hester (Arizona State University); acknowledgement: Davide De Martin (ESA/Hubble)
+https://esahubble.org/images/heic0515a/
+
+環状星雲
+NASA, ESA, and C. Robert O’Dell (Vanderbilt University)
+https://esahubble.org/images/heic1310a/
+
+イータカリーナ星雲
+NASA, ESA, N. Smith (UC Berkeley), and The Hubble Heritage Team (STScI/AURA)
+https://esahubble.org/images/heic0707a/

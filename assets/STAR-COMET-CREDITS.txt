@@ -1,0 +1,25 @@
+Stellar catalogue: HYG v4.1, David Nash / Astronexus.
+https://github.com/astronexus/HYG-Database
+CC BY-SA 4.0: https://creativecommons.org/licenses/by-sa/4.0/
+Derived catalogue.js stellar subset and Japanese names are distributed under the same CC BY-SA 4.0 license.
+Changes: select stars to magnitude 5.5 plus selected constellation members; round distances; add Japanese labels; project J2000 RA/declination onto a fixed celestial sphere.
+Constellation connections: Stellarium modern_st (88 constellations), Paul Krizak, Jonathan E. Piskor, extended by G. Zotti.
+https://github.com/Stellarium/stellarium/tree/master/skycultures/modern_st
+CC BY-SA 2.0: https://creativecommons.org/licenses/by-sa/2.0/
+Changes: retain HIP line segments only, add Japanese names from NAOJ, connect coordinates from HYG. Lines are not official IAU boundaries.
+HYG Alula Australis (Xi UMa) record without a HIP field is matched to line endpoint HIP 55203.
+Constellation Japanese names: https://www.nao.ac.jp/new-info/constellation.html
+
+Comet elements: JPL Solar System Dynamics ELEMENTS.COMET, retrieved 2026-09-06.
+https://ssd.jpl.nasa.gov/dat/ELEMENTS.COMET
+https://ssd.jpl.nasa.gov/sb/elem_tables.html
+1P/Halley: element epoch MJD 39875, JPL 75.
+2P/Encke: element epoch MJD 59897, JPL K273/12.
+67P/Churyumov-Gerasimenko: element epoch MJD 57305, JPL K284/1.
+Positions calculated using fixed two-body Keplerian orbits, not precision ephemerides.
+
+Dwarf planets: NASA/JPL SBDB API, full-precision elements retrieved 2026-09-07.
+https://ssd-api.jpl.nasa.gov/doc/sbdb.html
+Objects: 134340 Pluto, 1 Ceres, 136199 Eris, 136108 Haumea, 136472 Makemake.
+Per-object element epochs are retained in dwarfs.js. Fixed two-body approximation; colours/shapes are schematic, not photographic maps.
+Audio: original oscillator-based ambient score and interface sound design. No third-party recordings or songs.
