@@ -1,0 +1,12 @@
+Catalog snapshot 2026-09-07
+OpenNGC — Mattia Verga and contributors, CC BY-SA 4.0
+https://github.com/mattiaverga/OpenNGC
+Adaptation: filtered types, converted coordinates, Japanese generic type explanations.
+https://creativecommons.org/licenses/by-sa/4.0/
+NASA Exoplanet Archive: pscomppars, confirmed planets with coordinates.
+https://exoplanetarchive.ipac.caltech.edu/
+Images: ESA/Hubble, individual credits and source links in catalog.
+ISS position: Where the ISS at, https://wheretheiss.at/w/developer
+
+Survey cutouts: DSS2 via CDS HiPS2FITS service.
+https://alasky.cds.unistra.fr/hips-image-services/hips2fits
