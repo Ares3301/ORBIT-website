@@ -3830,5 +3830,16 @@ export const translations={
   "太陽系の中心にある恒星です。約46億年前に誕生し、その重力が惑星などの天体を軌道に保っています。中心の核融合でエネルギーを生み、地球へ光と熱を届けます。": "The star at the center of the Solar System. Formed about 4.6 billion years ago, its gravity holds planets and other objects in orbit. Nuclear fusion in its core produces energy, providing Earth with light and heat.",
   "天体名：表示": "Names: on",
   "天体名：非表示": "Names: off",
-  "Nキーで切り替え": "Toggle names with N"
+  "Nキーで切り替え": "Toggle names with N",
+  "観察する": "Observe",
+  "ほかの天体": "Other objects",
+  "表示方法": "View type",
+  "観測画像を平面表示": "Observed image on a flat plane",
+  "色と表面は模式表現": "Schematic color and surface",
+  "観測画像を平面表示。ズームして細部を観察できます。": "Observed image on a flat plane. Zoom in to examine details.",
+  "色と表面は模式表現。実際の表面の観測画像ではありません。": "Color and surface are schematic, not actual observations of the surface."
 };
+
+Object.assign(translations,{"宇宙の天体カタログ": "Cosmic catalog", "カタログの天体の目印": "Catalog markers", "銀河・銀河群": "Galaxies and groups", "銀河団": "Galaxy clusters", "星団": "Star clusters", "距離データなし": "Distance unavailable", "すべて": "All", "前へ": "Previous", "次へ": "Next", "名前・M番号・NGC番号で検索": "Search name, Messier or NGC number", "天体を検索": "Search objects", "天体の種類": "Object type", "ISSの現在位置": "ISS live position", "国際宇宙ステーション": "International Space Station", "位置を取得中…": "Loading position…", "位置を取得できません。再接続を待っています。": "Position unavailable. Waiting to reconnect.", "前回取得した位置": "Last known position", "更新時刻": "Updated", "緯度": "Latitude", "経度": "Longitude", "高度": "Altitude", "速度": "Speed", "約10秒ごとに軌道計算による位置を取得します。太陽系の表示日時とは連動しません。": "Calculated orbital position updates about every 10 seconds, independently of the Solar System time controls.", "カタログの代表位置（J2000）を表示。系外惑星は模式表現です。空の目印は現在のページの天体を表示します。": "Catalog directions use J2000 coordinates. Exoplanets are schematic. Sky markers show objects on the current page.", "恒星やガス、塵が重力で集まった銀河、または複数の銀河の集まりです。": "A galaxy of gravitationally bound stars, gas and dust, or a collection of galaxies.", "ガスや塵が広がる天体です。種類によって、発光・反射・背景の光を遮るしくみが異なります。": "An extended cloud of gas or dust. Different types emit light, reflect it, or block background light.", "多数の恒星が集まった天体です。星の集団の成り立ちや進化を調べる手がかりになります。": "A gathering of stars that helps astronomers study stellar formation and evolution.", "太陽以外の恒星を回る、確認済みの系外惑星です。表示する表面や色は模式表現です。": "A confirmed planet orbiting a star other than the Sun. Its displayed surface and color are schematic.", "多数の銀河が重力で結びついた銀河団です。銀河の間には高温のガスが広がっています。": "A gravitationally bound cluster of many galaxies, with hot gas between them.", "アンドロメダ銀河": "Andromeda Galaxy", "子持ち銀河": "Whirlpool Galaxy", "ソンブレロ銀河": "Sombrero Galaxy", "かみのけ座銀河団": "Coma Cluster", "観測画像を読み込み中…": "Loading survey image…"});
+
+Object.assign(translations,{'設定・操作':'Controls','天体の詳細':'Object details'});

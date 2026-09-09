@@ -1,7 +1,7 @@
 import {initLanguage} from './i18n.js';
 initLanguage();
 const toggle=document.getElementById('ui-toggle');
-const panels=document.querySelectorAll('#universe > header, .mode-nav, .view-tools, #detail, #sky-tools, #lab-tools, .scene-note, .bottom, #language-toggle');
+const panels=document.querySelectorAll('#universe > header, .mode-nav, .view-tools, #detail, #deep-stage-detail, #sky-tools, #lab-tools, .scene-note, .bottom, #language-toggle, #mobile-menu, #mobile-info');
 let hidden=false;
 function setHidden(value){
   hidden=value;

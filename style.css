@@ -49,3 +49,40 @@ body.names-hidden #labels,body.names-hidden #deep-labels{visibility:hidden!impor
 body.names-hidden #deep-labels *{visibility:hidden!important;pointer-events:none!important}
 body.ui-hidden #names-toggle{top:max(68px,calc(env(safe-area-inset-top) + 52px));right:max(16px,env(safe-area-inset-right))}
 @media(max-width:600px){#names-toggle{right:14px;top:304px;font-size:12px;padding:8px 10px}}
+
+body[data-mode=deep] #detail,body[data-mode=deep] .timeline,body[data-mode=deep] #planet-nav,body[data-mode=deep] .scene-note{display:none}
+#deep-stage-detail{width:290px;max-height:calc(100svh - 310px);overflow-y:auto;padding-right:12px}#stage-name{font-size:27px;margin-top:12px}#stage-description{font-size:15px;line-height:1.8;color:#bfccd9}#stage-note{color:#e4bd8d;line-height:1.7}#stage-credit{font-size:12px;color:#899eb1}#stage-source{font-size:14px;color:#d7b78f}#stage-info,#stage-other{margin:10px 4px 0 0;font-size:14px}
+body.ui-hidden #deep-stage-detail{visibility:hidden;pointer-events:none}
+@media(max-width:600px){body[data-mode=deep] #universe{min-height:680px}#deep-stage-detail{top:198px;left:14px;width:180px;max-height:calc(100svh - 320px)}#stage-name{font-size:20px}#stage-description{font-size:13px;line-height:1.6}#stage-info,#stage-other{font-size:12px}#deep-stage-detail dt,#deep-stage-detail dd{font-size:12px}}
+.deep-toolbar{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin:20px 0}.deep-toolbar input{flex:1;min-width:180px}.deep-toolbar input,.deep-toolbar select{padding:12px;background:#101c2b;color:#eef4ff;border:1px solid #405269;border-radius:8px;font:inherit}.deep-card h3{overflow-wrap:anywhere}.iss-map{position:relative;overflow:hidden;border:1px solid #405269;border-radius:10px}.iss-map img{display:block;width:100%;height:auto}.iss-map span{position:absolute;transform:translate(-50%,-50%);color:white;background:#11283ee8;border:1px solid #9edbff;border-radius:20px;padding:4px 8px;white-space:nowrap;font-size:14px}#iss-dialog{width:min(850px,94vw)}#iss-facts{line-height:1.8}.footer-actions{flex-wrap:wrap}
+/* Compact phone layout: observation first, secondary controls in one sheet. */
+#mobile-menu,#mobile-info{display:none}
+@media(max-width:600px){
+ #universe,body[data-mode] #universe{height:100dvh;min-height:0}
+ header{padding:14px 14px 0}.brand{font-size:18px}.brand-mark{font-size:26px}.brand small,.live-status{display:none}
+ #mobile-menu,#mobile-info{display:block;position:absolute;z-index:11;background:#0b1422ed;font-size:13px;min-height:44px;padding:8px 12px}
+ #mobile-menu{right:14px;top:max(10px,env(safe-area-inset-top))}
+ #mobile-info{left:14px;top:112px}
+ .mode-nav{top:62px;left:14px;right:14px;gap:4px;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none}
+ .mode-nav button,html[lang=en] .mode-nav button{flex-shrink:0;min-height:40px;font-size:12px;padding:7px 10px}
+ #ui-toggle{top:112px;right:14px;min-height:44px}
+ #detail,#deep-stage-detail{top:164px;left:14px;width:min(270px,calc(100% - 28px));max-height:calc(100dvh - 265px);min-height:0;overflow:auto;padding:14px;background:#0b1422ed;border:1px solid #ffffff24;border-radius:12px;display:none}
+ body.mobile-info-open #detail,body.mobile-info-open #deep-stage-detail{display:block}
+ body[data-mode=sky] #detail,body[data-mode=lab] #detail,body[data-mode=deep] #detail{display:none}
+ body[data-mode=sky] #mobile-info,body[data-mode=lab] #mobile-info{display:none}
+ #detail h1,html[lang=en] #detail h1,#stage-name{font-size:24px;margin:6px 0}#description,#stage-description{font-size:13px;line-height:1.65;max-width:none}
+ .bottom{padding:8px 10px max(8px,env(safe-area-inset-bottom));background:linear-gradient(transparent,#05080ef2)}
+ .planet-nav{display:flex;overflow-x:auto;gap:4px;margin:0;scrollbar-width:thin}.planet-nav button{flex:0 0 auto;min-width:72px;min-height:44px;padding:7px;font-size:12px}.planet-nav button img{width:20px;height:20px}
+ footer,.gesture{display:none}#extra-summary{font-size:12px;max-height:64px;overflow:auto;margin:0 0 6px}
+ dialog{padding:18px;max-height:88dvh}dialog h2{font-size:18px}dialog p{font-size:13px}.deep-card{padding:12px}.deep-card h3{font-size:18px}.deep-grid{gap:12px}.deep-actions{gap:10px}
+ #mobile-settings{width:calc(100% - 20px);max-width:580px;margin:auto auto max(10px,env(safe-area-inset-bottom));border-radius:18px;max-height:82dvh}
+ #mobile-settings-content{display:flex;flex-direction:column;gap:18px;padding-top:20px}
+ #mobile-settings .view-tools,#mobile-settings #sky-tools,#mobile-settings #lab-tools,#mobile-settings #language-toggle,#mobile-settings #names-toggle,#mobile-settings .scene-note{position:static;max-width:100%;width:auto;visibility:visible;pointer-events:auto}
+ #mobile-settings .view-tools,#mobile-settings #sky-tools,#mobile-settings #lab-tools{display:flex;flex-wrap:wrap;gap:8px}
+ #mobile-settings .timeline{display:flex;flex-direction:column;align-items:stretch;padding-top:16px;gap:14px}
+ body[data-mode=sky] #mobile-settings .timeline,body[data-mode=lab] #mobile-settings .timeline,body[data-mode=deep] #mobile-settings .timeline{display:none}
+ #mobile-settings button{font-size:14px;min-height:44px;padding:8px 12px}#mobile-settings label{font-size:13px}#mobile-settings select,#mobile-settings input{font-size:16px;max-width:100%}
+ #mobile-settings .footer-actions{display:grid;grid-template-columns:1fr 1fr;gap:8px}#mobile-settings .footer-actions button{border:1px solid #ffffff25}
+ #mobile-settings .scene-note{align-items:flex-start;font-size:12px;max-width:none}
+ body.ui-hidden #mobile-menu,body.ui-hidden #mobile-info{visibility:hidden;pointer-events:none}
+}

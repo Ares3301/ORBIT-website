@@ -128,3 +128,6 @@ export const deepObjects=[
     "imageSource": "https://esahubble.org/images/heic0707a/"
   }
 ];
+
+import {expandedObjects} from './expanded-data.js';
+deepObjects.push(...expandedObjects);
